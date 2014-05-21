@@ -50,7 +50,9 @@ In order to run it locally you'll need a basic server setup.
     ```sh
     $ grunt connect
     ```
+
 Or, you can have a bare minimum local server using python.
+
 
 1. Clone this repo.
 
