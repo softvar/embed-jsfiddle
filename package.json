@@ -1,0 +1,19 @@
+{
+    "name": "embed-jsfiddle",
+    "version": "0.2.0",
+    "description": "Web Component wrapper for jsFiddle's widgets using Polymer",
+    "author": "Varun Malhotra",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/softvar/embed-jsfiddle"
+    },
+    "bugs": {
+        "url": "https://github.com/softvar/embed-jsfiddle/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-connect": "~0.5.0",
+        "grunt-cli": "~0.1.9"
+    }
+}
