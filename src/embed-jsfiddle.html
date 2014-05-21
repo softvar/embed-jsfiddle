@@ -1,0 +1,20 @@
+<polymer-element name="embed-jsfiddle"
+         attributes="user fiddleid tabs skin width height">
+
+    <template>
+        <iframe src="http://jsfiddle.net/{{user}}/{{fiddleid}}/embedded/{{tabs}}/{{skin}}" width="{{width}}" height="{{height}}" ></iframe>
+    </template>
+
+    <script>
+        Polymer('embed-jsfiddle', {
+            user: '',
+            fiddleid: '',
+            tabs: '',
+            skin: 'light',
+            width: '800',
+            height: '300',
+            created: function () {}
+        });
+    </script>
+
+</polymer-element>
