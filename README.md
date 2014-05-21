@@ -76,6 +76,7 @@ Or, you can have a bare minimum local server using python.
     ```sh
     # to run local server on port:8000
     $ python -m SimpleHTTPServer
+    ```
 
 4. Open and point your browser to [http://locahost:8000](http://locahost:8000).
 
