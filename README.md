@@ -10,7 +10,7 @@ Web Component wrapper for [jsFiddle's widgets](http://doc.jsfiddle.net/use/embed
 
 ## Installation
 
-Using (bower)[bower.io] to install. 
+Using [bower](bower.io) to install. 
 
     ```sh
     $ bower install embed-jsfiddle
