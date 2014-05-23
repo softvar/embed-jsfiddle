@@ -8,6 +8,14 @@ Web Component wrapper for [jsFiddle's widgets](http://doc.jsfiddle.net/use/embed
 
 > [Check it live](http://softvar.github.io/embed-jsfiddle).
 
+## Installation
+
+Using (bower)[bower.io] to install. 
+
+    ```sh
+    $ bower install embed-jsfiddle
+    ```
+
 ## Usage
 
 1. Import Web Components' polyfill:
