@@ -10,21 +10,42 @@ Web Component wrapper for [jsFiddle's widgets](http://doc.jsfiddle.net/use/embed
 
 ## Installation
 
-1. Using [bower](bower.io) to install. 
+Install the component using [bower](bower.io): 
 
-    ```sh
-    $ bower install embed-jsfiddle
-    ```
+```sh
+$ bower install embed-jsfiddle
+```
+
+Or [Download as ZIP](http://github.com/softvar/embed-jsfiddle/archive/master.zip)
 
 ## Usage
 
 1. Import Web Components' polyfill:
+    
+    If using bower, then
 
     ```html
-    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
+    <script src="bower_components/platform/platform.js"></script>
+    ```
+    
+    Otherwise
+
+
+    ```html
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
+
     ```
 
 2. Import Custom Element:
+    
+    If using bower, then include the below code inside `<head>...</head>`
+
+    ```html
+    <link rel="import" href="bower_components/embed-jsfiddle/src/embed-jsfiddle.html">
+    ```
+
+    Else if using the `download as zip` copy, then include the below code inside `<head>...</head>` 
 
     ```html
     <link rel="import" href="src/embed-jsfiddle.html">
@@ -33,7 +54,7 @@ Web Component wrapper for [jsFiddle's widgets](http://doc.jsfiddle.net/use/embed
 3. Start using it!
 
     ```html
-    <embed-jsfiddle></embed-jsfiddle>
+    <embed-jsfiddle user="softvar" fiddleid="xxxxx"></embed-jsfiddle>
     ```
 
 ## Setup
